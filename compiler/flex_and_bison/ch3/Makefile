@@ -16,7 +16,7 @@ abc: abc.l abc.y abc.h abc.c
 	$(CC) $(CFLAGS) -o $@ $@.c $@.lex.c $@.tab.c -lfl -lm
 
 clean:
-	-rm -f $(binaries) *.yy.c *.tab.h *.tab.c *.out *.o *.a *.so
+	-rm -f $(binaries) *.lex.c *.tab.h *.tab.c *.out *.o *.a *.so
 
 .PHONY:
 	clean
