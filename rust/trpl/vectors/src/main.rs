@@ -1,3 +1,4 @@
+#![allow(unused_variables)]
 fn main() {
     // creation
     let v: Vec<i32> = Vec::new();

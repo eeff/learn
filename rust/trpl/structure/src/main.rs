@@ -6,9 +6,10 @@ struct User {
     active: bool,
 }
 
+#[allow(unused_variables)]
 fn main() {
     // instantiation
-    let _user = User {
+    let user = User {
         email: String::from("someone@example.com"),
         username: String::from("someusername123"),
         active: true,

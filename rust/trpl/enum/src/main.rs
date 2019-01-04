@@ -9,6 +9,7 @@ enum IpAddr {
     V6(String),
 }
 
+#[allow(unused_variables)]
 fn main() {
     // variants of enum are namespaced
     let four = IpAddrKind::V4;

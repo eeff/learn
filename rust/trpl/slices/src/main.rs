@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 fn main() {
     // A string slice is a reference to part of a String
     let s = String::from("hello world");
